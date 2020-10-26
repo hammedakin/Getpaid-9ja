@@ -1,38 +1,319 @@
-.App {
-  text-align: center;
+body {
+  background-color: #ECEEED!important;
+  margin: 0 auto;
+  color: #ffffff;
+  line-height: 1.6;
+  font-family: "Alata", sans-serif !important;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* Navbar */
+nav {
+  background-color: #ECEEED!important;
+  padding: 1rem 3rem!important;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+nav a {
+  color: #2BB24C!important;
+  font-weight: 600;
+  padding-right: 2rem!important;
+}
+
+nav button {
+  background-color: #ffffff!important;
+  color: #2BB24C!important;
+  font-weight: 600!important;
+  
+}
+
+/* Navbar */
+
+
+/* Showcase */
+.showcase {
+  background-color: #2BB24C;
+ 
+  padding: 0 0 150px 0;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.showcase button {
+  background-color: #ffffff;
+  color: #2BB24C;
+  font-size: 1rem;
+}
+
+
+
+/* Showcase */
+
+
+/* About */
+  
+  .group{      
+    transform: translateY(-150px);
+}
+
+
+.about button {
+  color: #ffffff;
+  background-color: #2BB24C;
+  font-size: 1.3rem;
+  border: #2BB24C;
+}
+/* About */
+
+
+/* how-to-earn */
+
+.how-to-earn {
+  background-color: #2BB24C;
+
+  
+}
+
+.how-to-earn .title{
+  font-size: 1.5rem!important;
+  text-decoration: underline solid;
+ 
+  
+  
+  
+}
+
+.how-to-earn .image{
+  background-color: #ffffff;
+  border-radius: 100%;
+  width: 6rem!important;
+
+}
+
+.how-to-earn p {
+  font-size: 1.2rem;
+}
+
+.how-to-earn col {
+border-left: #ffffff solid!important;
+}
+
+
+
+.how-to-earn img {
+  width: 6rem;
+    padding: 1rem;
   }
+
+
+
+/* how-to-earn */
+
+/* Home Register */
+.Homeregister {
+  transform: translateY(150px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.HomeRegister {
+  background-color: #ffffff;
+  padding: 2rem 0;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.HomeRegister input {
+  
+  border: 1px solid #2BB24C;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.HomeRegister input::placeholder {
+  
+  color: #2BB24C;
+}
+
+.Homeregister h4{
+  color: #2BB24C;
+}
+
+.Homeregister button{
+  background-color: #2BB24C;
+  color: #ffffff;
+  border: 0;
+}
+
+.Homeregister .input-group-text {
+ color: #2BB24C;
+ background-color: #ffffff;
+  border: 1px solid #2BB24C ;
+}
+
+/* Home Register */
+
+
+/* Footer */  
+.footer-top {
+  background-color: #000000;
+
+ 
+}
+
+
+footer {
+  background-color: #2BB24C;
+  padding: 150px 0 100px 0;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+}
+
+footer p{
+  font-size: 1.2rem;
+
+}
+/* Footer */
+
+/* Login */
+.login {
+  background-color: #ffffff;
+  /* padding-bottom: 100vh; */
+  height: 100vh;
+}
+
+.login button {
+background-color: #2BB24C!important;
+color: #ffffff;
+}
+
+
+/* Login */
+
+/* SignUp */
+
+.signup {
+  background-color: #ffffff;
+  /* padding-bottom: 100vh; */
+  height: 100vh;
+}
+
+.signup button {
+  background-color: #2BB24C!important;
+  color: #ffffff;
   }
-  to {
-    transform: rotate(360deg);
-  }
+/* SignUp */
+
+/* Dashboard */
+.whites {
+  background-color: #ffffff;
+ 
+ }
+
+.dashboard form .form-control {
+  width: 25rem!important;
+} 
+
+.circle {
+  background-color: #2BB24C;
+  padding: 1rem;
+  border-radius: 100%;
+  width: 1rem;
+
 }
+
+.dashboard .form-control:disabled {
+   background-color: #2BB24C;
+   color: #ffffff;
+   font-size: 1.3rem;
+   
+
+}
+
+/* Dashboard */
+
+
+/* Media Query for Tablet device */
+/* Media Query for Tablet device */
+
+@media (max-width: 768px) { 
+
+/* Showcase */
+.showcase {
+  padding: 0 0 150px 0;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+/* Showcase */
+
+/* Dashboard */
+
+  .dashboard form .form-control {
+    width: 20rem!important;
+  } 
+
+/* Dashboard */
+
+/* Footer */
+footer {
+
+  padding: 100px 0 50px 0;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+}
+
+/* Footer */
+}
+
+
+/* Media Query for Tablet device */
+/* Media Query for Tablet device */
+
+
+/* Media Query for mobile device */
+/* Media Query for mobile device */
+
+
+@media screen and (max-width: 580px) {
+
+/* Showcase */
+.showcase {
+  padding: 10px 0 150px 0;
+  border-bottom-right-radius: 15rem;
+  border-bottom-left-radius: 15rem;
+}
+
+
+  /* Dashboard */
+.dashboard  button {
+  margin-left: auto!important;
+  margin-right: auto;
+
+}
+  /* Dashboard */
+
+
+/* Footer */
+footer {
+  padding: 100px 20px 50px 20px;
+  border-top-right-radius: 15rem;
+  border-top-left-radius: 15rem;
+}
+
+/* Footer */
+
+/* Login */
+.login {
+  background-color: #ffffff;
+  padding-bottom: 0;
+
+}
+
+
+/* Login */
+
+
+
+}
+
+/* Media Query for mobile device */
+/* Media Query for mobile device */
